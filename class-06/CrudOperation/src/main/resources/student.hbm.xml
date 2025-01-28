@@ -1,0 +1,8 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="com.ragheb.entity.Student" table="students">
+        <id name="id" column="SID"/>
+        <property name="name" column="SName"/>
+        <property name="gender" column="SGender"/>
+        <property name="marks" column="Marks"/>
+    </class>
+</hibernate-mapping>
