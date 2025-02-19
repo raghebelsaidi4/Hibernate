@@ -23,16 +23,21 @@ public class StudentDAOImpl implements StudentDAO {
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null) transaction.rollback();
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
     @Override
     public Student loadStudent(int id) {
+        /*
+        * load() -> lazy loading
+        * get() -> early loading
+        * args -> 1- classname.class 2- id value
+        * */
         try (Session session = sessionFactory.openSession()) {
             return session.get(Student.class, id);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
             return null;
         }
     }
@@ -51,7 +56,7 @@ public class StudentDAOImpl implements StudentDAO {
             }
         } catch (Exception e) {
             if (transaction != null) transaction.rollback();
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -68,7 +73,7 @@ public class StudentDAOImpl implements StudentDAO {
             }
         } catch (Exception e) {
             if (transaction != null) transaction.rollback();
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
