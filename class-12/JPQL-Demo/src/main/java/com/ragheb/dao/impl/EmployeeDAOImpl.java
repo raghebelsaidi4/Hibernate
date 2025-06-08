@@ -16,12 +16,12 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         EntityManager em = factory.createEntityManager();
         try {
             TypedQuery<EmployeeEntity> typedQuery = em.createQuery(AppConstants.QUERY1, EmployeeEntity.class);
-            typedQuery.setParameter("empNo", empNo); // Ensure this matches the query parameter name
+            typedQuery.setParameter("empNo", empNo);
             return typedQuery.getSingleResult();
         } catch (NoResultException e) {
-            return null; // Handle the case where no employee is found
+            return null;
         } finally {
-            em.close(); // Ensure EntityManager is always closed
+            em.close();
         }
     }
 

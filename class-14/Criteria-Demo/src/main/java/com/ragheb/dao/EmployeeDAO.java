@@ -7,6 +7,7 @@ import java.util.List;
 public interface EmployeeDAO {
 
     List<EmployeeEntity> executeNamedQuery(int deptNo);
+
     List executeNamedNativeQuery(int sal);
 
     List<EmployeeEntity> executeCriteriaQuery();

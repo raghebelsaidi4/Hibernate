@@ -4,7 +4,7 @@ Data persistence involves storing data permanently.
 # Components of Data Persistence:
 1. Data: What to persist?
 2. Medium: How to persist?
-3. Storage: Where to persist?
+3. Storage: Where to persist?                   
 
 # Data
 1. Raw data

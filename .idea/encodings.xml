@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/class-06/CrudOperation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-06/CrudOperation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-08/Hibernate-JPA-Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-08/Hibernate-JPA-Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-09/EmbeddableApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-09/EmbeddableApp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-12/JPQL-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-12/JPQL-Demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-13/NamedQuery-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-13/NamedQuery-Demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-14/Criteria-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-14/Criteria-Demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-15/JPAProcedure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-15/JPAProcedure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-17/JPAOneToMany/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-17/JPAOneToMany/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

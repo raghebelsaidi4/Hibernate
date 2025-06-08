@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CrudOperation" />
+        <module name="JPAOneToMany" />
+        <module name="JPQL-Demo" />
+        <module name="Hibernate-JPA-Project" />
+        <module name="JPAProcedure" />
+        <module name="NamedQuery-Demo" />
+        <module name="EmbeddableApp" />
+        <module name="Criteria-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

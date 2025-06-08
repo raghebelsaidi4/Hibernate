@@ -12,13 +12,13 @@ public class EmployeeEntity {
     @Column(name = "emp_no")
     private Integer empNumber;
 
-    @Column(name = "ename")
+    @Column(name = "emp_name")
     private String empName;
 
     @Column(name = "sal")
     private Double salary;
 
-    @Column(name = "deptno")
+    @Column(name = "dept_no")
     private Integer deptNo;
 
     public Integer getEmpNumber() {

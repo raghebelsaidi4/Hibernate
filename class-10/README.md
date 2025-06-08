@@ -22,10 +22,6 @@ In JPA and Hibernate, an entity object can exist in one of the following three s
     - Changes to the entity are not tracked by the persistence context.
     - To reattach the entity and make it persistent again, the `merge()` method can be used.
 
-### Summary Workflow
-1. **Transient State**: A new entity object is created.
-2. **Persistent State**: The entity is persisted to the database using `EntityManager.persist()`.
-3. **Detached State**: The entity is detached from the persistence context by closing, clearing, or explicitly detaching it.
 
 ### Example Workflow
 ```java
@@ -43,6 +39,3 @@ em.getTransaction().commit();
 em.close(); // Closing the EntityManager detaches the entity
 // The entity is now in the detached state
 ```
-
-This document helps in understanding the lifecycle of an entity in a JPA/Hibernate environment.
-

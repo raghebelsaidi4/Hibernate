@@ -12,19 +12,16 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "employees")
 public class Employee {
-    @Id @Column(name = "employee_id")
+    @Id
+    @Column(name = "employee_id")
     private int employeeId;
-
     @Column(name = "emp_name")
     private String name;
-
     private String email;
     private Double salary;
-
     @Column(name = "created_on")
     @CreationTimestamp
     private LocalDateTime createdOn;
-
     @Column(name = "lastUpdated_on")
     @UpdateTimestamp
     private LocalDateTime updatedOn;

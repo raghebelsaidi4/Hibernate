@@ -19,7 +19,8 @@
 | **Productivity**       | Time-consuming due to manual query and mapping writing.  | Increases productivity with reduced manual coding.  |
 | **Features**           | Limited, lacks caching or transaction management.        | Rich features like caching, lazy loading, and relationships. |
 
-![Image](https://github.com/user-attachments/assets/d1d59009-866b-4532-8ae2-58ba5f512534) ![Image](https://github.com/user-attachments/assets/8276e4d7-481e-4cbc-9862-3349a76c3852)
+![Image](https://github.com/user-attachments/assets/d1d59009-866b-4532-8ae2-58ba5f512534)
+![Image](https://github.com/user-attachments/assets/8276e4d7-481e-4cbc-9862-3349a76c3852)
 
 ---
 

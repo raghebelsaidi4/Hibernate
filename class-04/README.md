@@ -1,22 +1,6 @@
 # Features of Hibernate
 
-Hibernate is a powerful Object-Relational Mapping (ORM) tool that provides several advanced features to simplify database operations and improve application performance. Below are the key features:
-
 ## 1. Hibernate Query Language (HQL)
-Hibernate provides **HQL (Hibernate Query Language)**, an object-oriented query language.  
-
-### Benefits of HQL:
-- HQL allows writing queries in a database-independent manner.
-- It uses **class names** and **field/variable names** instead of database table names and column names.
-- Reduces the complexity of switching databases since HQL queries are database-agnostic.
-
-**Example Comparison**:
-
-| Operation                   | SQL Query                          | HQL Query                           |
-|-----------------------------|-------------------------------------|-------------------------------------|
-| Select all rows             | `SELECT * FROM emp;`               | `SELECT e FROM emp e;`             |
-| Select specific columns     | `SELECT empName, empAge FROM emp;` | `SELECT e.empName, e.empAge FROM emp e;` |
-
 ---
 
 ## 2. Caching  
@@ -167,15 +151,3 @@ public class EmployeeBean implements Serializable {
 }
 ```
 
----
-
-# Summary
-
-Hibernate provides a wide range of features to simplify and optimize database interactions:
-- **HQL** for database-independent queries.
-- **Caching** for better performance.
-- **Lazy Loading** to minimize database calls.
-- **Connection Pooling** for efficient connection management.
-- **Criteria API** for dynamic and optimized queries.
-- **Locking** mechanisms for data consistency.
-- Support for **Associations** to manage relationships.

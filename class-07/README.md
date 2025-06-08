@@ -22,8 +22,8 @@ public class Employee {
 @Id
 private Long id;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "first_name")
+    private String fristName;
 
     @Transient
     private String temporaryData;  // This won't be mapped to the database
@@ -35,7 +35,7 @@ private Long id;
 Yes. If the table has more columns than the fields in the entity class, the entity will only map the columns that have a corresponding field. The remaining columns will be ignored unless explicitly handled with @Column. If a column in the database is missing a corresponding field in the entity, it will not cause an error as long as it does not have a NOT NULL constraint and a default value.
 Configuring Persistence with persistence.xml
 Creating the persistence.xml file:
-
+----
 The persistence.xml file is required for Hibernate or JPA to configure and manage your persistence unit. It must be placed under the META-INF directory, which should be located under the src/main/resources directory in your project structure.
 
 Example directory structure:

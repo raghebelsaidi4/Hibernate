@@ -32,7 +32,7 @@ To implement a Hibernate project, follow these steps:
 7. **Close the SessionFactory**:
    - Close the `SessionFactory` if no more sessions are required.
 
-### Important Points:
+### Concepts:
 - **SessionFactory**:
   - A high-level object that holds configuration metadata and acts as a factory for `Session` objects.
   - It is thread-safe and should be created once per application.
@@ -74,6 +74,12 @@ Maven is a powerful build tool provided by Apache that automates the build proce
 6. **Build Automation**:
    - Simplifies repetitive tasks like compilation, testing, and packaging.
 
-With Maven, developers can efficiently manage project dependencies and streamline the build process for Java applications.
+### maven project co-ordinates:
+**groupid**: a unique id to identify a group of projects of a client
+**artifactid**: project name
+**version**: project version
 
----
+**note**: the main file in maven project is pom.xml(project object model), in pom.xml, you have to configure
+the dependencies(jars) and maven will download the jars from maven central repository and will store them into local repository
+
+

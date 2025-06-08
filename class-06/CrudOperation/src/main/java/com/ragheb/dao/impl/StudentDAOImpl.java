@@ -8,6 +8,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 public class StudentDAOImpl implements StudentDAO {
+
     private final SessionFactory sessionFactory;
 
     public StudentDAOImpl() {
@@ -30,10 +31,10 @@ public class StudentDAOImpl implements StudentDAO {
     @Override
     public Student loadStudent(int id) {
         /*
-        * load() -> lazy loading
-        * get() -> early loading
-        * args -> 1- classname.class 2- id value
-        * */
+         * load() -> lazy loading
+         * get() -> early loading
+         * args -> 1- classname.class 2- id value
+         * */
         try (Session session = sessionFactory.openSession()) {
             return session.get(Student.class, id);
         } catch (Exception e) {

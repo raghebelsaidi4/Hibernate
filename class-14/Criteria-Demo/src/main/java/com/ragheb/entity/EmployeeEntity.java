@@ -8,20 +8,18 @@ import org.hibernate.annotations.NamedQuery;
 
 @Entity
 @Table(name = "employee")
-@NamedQuery(name = "query1", query = "From EmployeeEntity e where e.deptNo=?1")
-@NamedQuery(name = "query2", query = "select e from EmployeeEntity e where e.salary> :sal")
 public class EmployeeEntity {
     @Id
     @Column(name = "emp_no")
     private Integer empNumber;
 
-    @Column(name = "ename")
+    @Column(name = "emp_name")
     private String empName;
 
     @Column(name = "sal")
     private Double salary;
 
-    @Column(name = "deptno")
+    @Column(name = "dept_no")
     private Integer deptNo;
 
     public Integer getEmpNumber() {
