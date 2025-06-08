@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/class-14/Criteria-Demo/pom.xml" />
         <option value="$PROJECT_DIR$/class-15/JPAProcedure/pom.xml" />
         <option value="$PROJECT_DIR$/class-17/JPAOneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/class-18/JPAManyToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/class-19/JPAManyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/class-20/JPAOneToOne/pom.xml" />
       </list>
     </option>
   </component>

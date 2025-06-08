@@ -8,9 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CrudOperation" />
         <module name="JPAOneToMany" />
+        <module name="JPAManyToMany" />
         <module name="JPQL-Demo" />
+        <module name="JPAOneToOne" />
         <module name="Hibernate-JPA-Project" />
         <module name="JPAProcedure" />
+        <module name="JPAManyToOne" />
         <module name="NamedQuery-Demo" />
         <module name="EmbeddableApp" />
         <module name="Criteria-demo" />

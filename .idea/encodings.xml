@@ -17,5 +17,11 @@
     <file url="file://$PROJECT_DIR$/class-15/JPAProcedure/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/class-17/JPAOneToMany/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/class-17/JPAOneToMany/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-18/JPAManyToOne/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-18/JPAManyToOne/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-19/JPAManyToMany/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-19/JPAManyToMany/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-20/JPAOneToOne/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/class-20/JPAOneToOne/src/main/resources" charset="UTF-8" />
   </component>
 </project>
